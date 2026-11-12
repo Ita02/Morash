@@ -2,9 +2,8 @@ import os
 import requests
 
 def run_automation():
-    # Kiungo cha faili lenye orodha ya anwani mtandaoni 
-    # (Unaweza kuweka link sahihi ya faili lako hapa kati ya mabano)
-    url_ya_orodha = "https://raw.githubusercontent.com/username/repository/main/orodha_ya_anwani.txt"
+    # Link sahihi ya GitHub Raw kusoma faili lako moja kwa moja
+    url_ya_orodha = "https://raw.githubusercontent.com/ita02/Morash/main/orodha_ya_anwani.txt"
     
     print("Inachukua faili la anwani kutoka mtandaoni...")
     try:
